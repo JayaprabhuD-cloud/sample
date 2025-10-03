@@ -6,4 +6,4 @@ jobs:
         runs-on: ununtu-latest
         steps:
             -name: show the trigger eventrs
-             run: echo "I have been triggred by a(n) {{ github.event_name }} event"
+             run: echo "I have been triggred by a(n) ${{ github.event_name }} event"
