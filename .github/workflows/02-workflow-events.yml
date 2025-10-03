@@ -1,4 +1,4 @@
-name: workflow eventrs
+name: 02-workflow events
 on: push
 
 jobs:
