@@ -4,6 +4,6 @@ on: push
 jobs:
   echo:
     runs-on: ubuntu-latest
-      steps:
-        -name: show the trigger eventrs
-         run: echo "I have been triggred by a(n) ${{ github.event_name }} event"
+    steps:
+      -name: show the trigger eventrs
+       run: echo "I have been triggred by a(n) ${{ github.event_name }} event"
