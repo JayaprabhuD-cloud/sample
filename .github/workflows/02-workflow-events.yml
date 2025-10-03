@@ -2,8 +2,8 @@ name: workflow eventrs
 on: push
 
 jobs:
-  echo:
+  sample:
     runs-on: ubuntu-latest
     steps:
-      -name: show the trigger eventrs
-      run: echo "I have been triggred by a(n) ${{ github.event_name }} event"
+      - name: show the trigger eventrs
+        run: echo "I have been triggred by a(n) ${{ github.event_name }} event"
